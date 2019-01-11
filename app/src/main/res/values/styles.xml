@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--create theme for heading textview-->
+    <style name="headingStyle" parent="Base.TextAppearance.AppCompat.Headline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text2</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+    <style name="editText" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/textcolor</item>
+        <item name="android:background">@color/hintbg</item>
+        <item name="android:layout_marginRight">@dimen/margin4</item>
+        <item name="android:layout_marginLeft">@dimen/margin4</item>
+        <item name="android:layout_marginTop">@dimen/margin4</item>
+        <item name="android:padding">@dimen/margin5</item>
+    </style>
+</resources>

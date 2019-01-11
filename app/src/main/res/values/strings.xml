@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Registeration</string>
+    <string name="username">Enter your Name</string>
+    <string name="lottoApp">LOTTO IDEA</string>
+    <string name="email">Enter your Email ID</string>
+    <string name="password">Enter your Password</string>
+    <string name="mobnum">Enter your Mobile Number</string>
+    <string name="login">LOGIN</string>
+</resources>
