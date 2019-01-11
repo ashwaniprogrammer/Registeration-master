@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 
 public class AboutActivity extends AppCompatActivity {
-Button bl;
+Button bl;  
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
